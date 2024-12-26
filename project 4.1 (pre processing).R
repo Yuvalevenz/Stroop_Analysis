@@ -45,7 +45,7 @@ df <- df |> filter(!is.na(rt), rt <= 3000, rt >= 300)
 View(df)
 
 # Calculate remaining trials percentage
-df1 <- df |> group_by(subject) |> summarise(percentage = (n() / 400)) |> print(n = Inf) 
+df |> group_by(subject) |> summarise(percentage = (n() / 400)) |> print(n = Inf) 
 
 # Calculate mean and sd of removed trials percentage
 removed_per = 1 - df1$percentage
