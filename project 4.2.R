@@ -1,4 +1,6 @@
 # Descriptive statistics: groups summary and plot
+# Written by Yuval Even Zahav (12/2024)
+
 library(dplyr)
 library(ggplot2)
 library(ggpubr)

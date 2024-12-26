@@ -1,4 +1,5 @@
-# Pre-processing: collected data to raw, raw to filtered
+# Pre-processing: collected data to raw, raw to filtered 
+# Written by Yuval Even Zahav (12/2024)
 
 library(dplyr)
 #### Create raw data ----
