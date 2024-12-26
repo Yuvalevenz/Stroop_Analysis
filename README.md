@@ -7,3 +7,4 @@ r
 df_summary <- df |> group_by(task, congruency) |> summarise(mean_rt = mean(rt), sd_rt = sd(rt)) 
 View(df_summary)
 ```
+(Rplot.png)[Reaction Time as a function of Task Type and Congrugency]!
