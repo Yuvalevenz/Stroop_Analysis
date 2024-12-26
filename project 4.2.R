@@ -1,6 +1,8 @@
+# Descriptive statistics: groups summary and plot
 library(dplyr)
 library(ggplot2)
 library(ggpubr)
+
 load("Project 4 Filtered Data.RData")
 
 #### Descriptive  Statistics ----
